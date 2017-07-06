@@ -215,44 +215,93 @@ img.img-center {
 	color: #ffffff;
 }
 
-.titles {
-	background-color: #fbfaf8;
+
+
+
+.tiles2 {
+	margin-top: 10%;
 }
 
+.main {
+	position: relative;
+}
 
-.profile {
+.fa-search {
 	position: absolute;
-	top: 204px;
-	width: 350px;
+	z-index: -1;
+	top: 40%;
+	left: 50%;
 }
 
-.tri {
-	width: 20px;
-	height: 20px;
-	margin-left: 19px;
-	border-right: 20px solid transparent;
-	border-left: 20px solid transparent;
-	border-bottom: 15px solid #fbfaf8;
+.fa-link {
+	position: absolute;
+	z-index: -1;
+	top: 40%;
+	left: 35%;
 }
 
-#project h3 {
+.triangle {
+	width: 50px;
+	height: 50px;
+	border-right: 30px solid transparent;
+	border-bottom: 30px solid #fbfaf8;
+	border-left: 30px solid transparent;
+}
+
+.group {
+	position: absolute;
+	top: 77%;
+}
+
+.shape {
+	background-color: #fbfaf8;
+	width: 360px;
+	height: 100px;
+}
+
+.shape h4 {
 	font-family: 'ralewaymedium';
 	font-size: 20px;
-	color: #d2c2ae;
+	color: #c7b299;
 	padding-top: 30px;
-	padding-left: 28px;	
+	padding-left: 28px;
 	margin: 0px 0px;
 }
 
-#project h5 {
+.shape h5 {
 	font-family: 'montserratlight';
 	font-size: 14px;
 	color: #d1d1d1;
-	padding-bottom: 27px;
 	padding-left: 28px;
+	padding-bottom: 30px;
 }
 
-.wrapper {
-	position: absolute;
-	top: 120px;
+.profile:hover .triangle {
+	border-bottom: 30px solid #362f2d;
+}
+
+.profile:hover .shape {
+	background-color: #362f2d;
+}
+
+.profile:hover .fa-search {
+	color: #362f2d;
+	z-index: 1;
+}
+
+.profile:hover .fa-link {
+	color: #362f2d;
+	z-index: 1;
+}
+
+.profile:hover img {
+	opacity: 0.5;
+}
+
+.profile:hover h4 {
+	color: #ffffff;
+}
+
+.profile:hover h5 {
+	color: #c7b299;
 }
